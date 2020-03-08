@@ -78,6 +78,7 @@
             this.label20 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -528,18 +529,28 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(685, 259);
+            this.button8.Location = new System.Drawing.Point(665, 259);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.Size = new System.Drawing.Size(95, 23);
             this.button8.TabIndex = 58;
             this.button8.Text = "Hủy";
             this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(665, 288);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(95, 23);
+            this.button9.TabIndex = 59;
+            this.button9.Text = "Quay về Menu";
+            this.button9.UseVisualStyleBackColor = true;
             // 
             // FormQLKhaiSinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 579);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.label20);
@@ -620,5 +631,6 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
     }
 }

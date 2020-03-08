@@ -64,6 +64,12 @@
     <Compile Include="FormMenu.Designer.cs">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormQLCongDan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQLCongDan.Designer.cs">
+      <DependentUpon>FormQLCongDan.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormQLKhaiSinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQLCongDan.resx">
+      <DependentUpon>FormQLCongDan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormQLKhaiSinh.resx">
       <DependentUpon>FormQLKhaiSinh.cs</DependentUpon>
@@ -111,6 +120,16 @@
     <Content Include="Resources\iconQL.png" />
     <Content Include="Resources\iconThongke.jpg" />
     <Content Include="Resources\User.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QLHT.Controller\QLHT.Model.csproj">
+      <Project>{925017db-d3bf-448f-915f-8834a93cd9bb}</Project>
+      <Name>QLHT.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QLHT.Model\QLHT.Entity.csproj">
+      <Project>{8373ce3e-beaa-4fa8-bd5f-4062408b8bb6}</Project>
+      <Name>QLHT.Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
