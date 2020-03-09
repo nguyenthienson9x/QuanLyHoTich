@@ -51,6 +51,7 @@
             this.label2.Size = new System.Drawing.Size(330, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "QUẢN LÝ BÁO CÁO THỐNG KÊ";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox1
             // 
@@ -59,6 +60,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(256, 22);
             this.textBox1.TabIndex = 12;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -69,6 +71,7 @@
             this.label1.Size = new System.Drawing.Size(96, 17);
             this.label1.TabIndex = 11;
             this.label1.Text = "Mã công chức";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // dateTimePicker2
             // 
@@ -77,6 +80,7 @@
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(256, 22);
             this.dateTimePicker2.TabIndex = 24;
+            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
             // label7
             // 
@@ -87,6 +91,7 @@
             this.label7.Size = new System.Drawing.Size(91, 17);
             this.label7.TabIndex = 23;
             this.label7.Text = "Trích từ ngày";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // dateTimePicker1
             // 
@@ -95,6 +100,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(256, 22);
             this.dateTimePicker1.TabIndex = 22;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // label6
             // 
@@ -105,6 +111,7 @@
             this.label6.Size = new System.Drawing.Size(64, 17);
             this.label6.TabIndex = 21;
             this.label6.Text = "Ngày lập";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label18
             // 
@@ -115,6 +122,7 @@
             this.label18.Size = new System.Drawing.Size(127, 17);
             this.label18.TabIndex = 55;
             this.label18.Text = "Danh mục báo cáo";
+            this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
             // comboBox1
             // 
@@ -124,6 +132,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(256, 24);
             this.comboBox1.TabIndex = 56;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // btnBack
             // 
@@ -145,6 +154,7 @@
             this.btnXemBaoCao.TabIndex = 62;
             this.btnXemBaoCao.Text = "Xem báo cáo";
             this.btnXemBaoCao.UseVisualStyleBackColor = true;
+            this.btnXemBaoCao.Click += new System.EventHandler(this.btnXemBaoCao_Click);
             // 
             // FormQLBaoCaoThongKe
             // 

@@ -60,6 +60,7 @@
             this.label2.Size = new System.Drawing.Size(179, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "QUẢN LÝ LỆ PHÍ";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox1
             // 
@@ -68,6 +69,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(256, 22);
             this.textBox1.TabIndex = 10;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -78,6 +80,7 @@
             this.label1.Size = new System.Drawing.Size(96, 17);
             this.label1.TabIndex = 9;
             this.label1.Text = "Mã công chức";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox2
             // 
@@ -86,6 +89,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(256, 22);
             this.textBox2.TabIndex = 12;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label3
             // 
@@ -96,6 +100,7 @@
             this.label3.Size = new System.Drawing.Size(118, 17);
             this.label3.TabIndex = 11;
             this.label3.Text = "Thủ tục thực hiện";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox3
             // 
@@ -104,6 +109,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(256, 22);
             this.textBox3.TabIndex = 14;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label4
             // 
@@ -114,6 +120,7 @@
             this.label4.Size = new System.Drawing.Size(96, 17);
             this.label4.TabIndex = 13;
             this.label4.Text = "Tên công dân";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // textBox4
             // 
@@ -122,6 +129,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(256, 22);
             this.textBox4.TabIndex = 16;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label5
             // 
@@ -132,6 +140,7 @@
             this.label5.Size = new System.Drawing.Size(80, 17);
             this.label5.TabIndex = 15;
             this.label5.Text = "Số tiền nộp";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // dateTimePicker1
             // 
@@ -140,6 +149,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(256, 22);
             this.dateTimePicker1.TabIndex = 18;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // label6
             // 
@@ -150,6 +160,7 @@
             this.label6.Size = new System.Drawing.Size(64, 17);
             this.label6.TabIndex = 17;
             this.label6.Text = "Ngày lập";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // dateTimePicker2
             // 
@@ -158,6 +169,7 @@
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(256, 22);
             this.dateTimePicker2.TabIndex = 20;
+            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
             // label7
             // 
@@ -168,6 +180,7 @@
             this.label7.Size = new System.Drawing.Size(69, 17);
             this.label7.TabIndex = 19;
             this.label7.Text = "Ngày nộp";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // dataGridView1
             // 
@@ -177,6 +190,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(891, 359);
             this.dataGridView1.TabIndex = 24;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button3
             // 
@@ -187,6 +201,7 @@
             this.button3.TabIndex = 31;
             this.button3.Text = "Xóa";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -197,6 +212,7 @@
             this.button2.TabIndex = 30;
             this.button2.Text = "Sửa";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -207,6 +223,7 @@
             this.button1.TabIndex = 29;
             this.button1.Text = "Thêm";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnBack
             // 
