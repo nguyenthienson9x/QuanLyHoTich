@@ -43,8 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dictionary\BoPhan.cs" />
     <Compile Include="Dictionary\CongChuc.cs" />
+    <Compile Include="Dictionary\CongChuc_BoPhan.cs" />
     <Compile Include="Dictionary\CongDan.cs" />
+    <Compile Include="Dictionary\CTLP.cs" />
+    <Compile Include="Dictionary\GiamHo.cs" />
+    <Compile Include="Dictionary\KetHon.cs" />
+    <Compile Include="Dictionary\KhaiTu.cs" />
+    <Compile Include="Dictionary\LePhi.cs" />
+    <Compile Include="Dictionary\ThuTuc.cs" />
+    <Compile Include="Dictionary\TrangThai.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
