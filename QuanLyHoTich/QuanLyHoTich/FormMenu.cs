@@ -34,5 +34,15 @@ namespace QuanLyHoTich
             FormDangNhap.Instance.Show();
             FormMenu.Instance.Close();
         }
+
+        private void btn_QLLePhi_Click(object sender, EventArgs e)
+        {
+            FormQLLePhi.Instance.Show();
+        }
+
+        private void btnQLBCTK_Click(object sender, EventArgs e)
+        {
+            FormQLBaoCaoThongKe.Instance.Show();
+        }
     }
 }
