@@ -64,6 +64,12 @@
     <Compile Include="FormMenu.Designer.cs">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormQLBaoCaoThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQLBaoCaoThongKe.Designer.cs">
+      <DependentUpon>FormQLBaoCaoThongKe.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormQLCongDan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,12 @@
     <Compile Include="FormQLKhaiSinh.Designer.cs">
       <DependentUpon>FormQLKhaiSinh.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormQLLePhi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQLLePhi.Designer.cs">
+      <DependentUpon>FormQLLePhi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormDangNhap.resx">
@@ -84,11 +96,17 @@
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormQLBaoCaoThongKe.resx">
+      <DependentUpon>FormQLBaoCaoThongKe.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormQLCongDan.resx">
       <DependentUpon>FormQLCongDan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormQLKhaiSinh.resx">
       <DependentUpon>FormQLKhaiSinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQLLePhi.resx">
+      <DependentUpon>FormQLLePhi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
